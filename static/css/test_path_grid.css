@@ -1,0 +1,53 @@
+/************
+    COMMON
+************/
+
+* {
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    background-color: #000000;
+    margin: auto;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+h1 {
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.center {
+    display: grid;
+    grid-column-gap: 30px;
+    grid-template-columns: 1fr 1fr;
+}
+
+ul {
+    padding: 0;
+}
+
+p {
+    color: #FFFFFF;
+    text-align: center;
+}
+
+img {
+    border-radius: 15px;
+    border: 1px solid #000000;
+    width: 200px;
+    height: 200px;
+    box-shadow: 0px 0px 12px 3px #FFFFFF;
+}

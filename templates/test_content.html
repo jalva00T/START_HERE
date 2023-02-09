@@ -1,0 +1,16 @@
+{% extends 'test_path.html' %}
+
+{% block content%}
+<h1 class="title">START HERE</h1>
+<p class="intro">So you decided to start a project... That's great!<br>
+    This template was setup with a "testapp". <br>
+    For each new app, simply go through the "testapp" files and follow instructions found in steps.txt.</p>
+<div class="center">
+    {% for test in tests %}
+    <div class="card">
+        <p class="name">{{ test.name}}</p>
+        <img class="img" src={{test.image.url}}>
+    </div>
+    {% endfor %}
+</div>
+{% endblock %}
