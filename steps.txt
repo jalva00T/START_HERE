@@ -223,13 +223,11 @@ BUILD WHAT YOU WANT
 
 
 CREATE GITHUB REPO
-    1.
-    2.
-    3.
-    4.
-    5.
-    6.
-    7.
-    8.
-    9.
-    10.
+    1. Create a github repo with the name of your new project
+    2. Open terminal and cd into "backend" folder
+    3. Run command " git init "
+    4. Run command " touch README.md " to create README file
+    5. Run command " git add . " to add all files to staging to be committed
+    6. Run command " git commit -m "<description message>" " to commit staged files
+    7. Run command " git remote add origin <github repo url> "
+    8. Run command " git push -u origin master "
